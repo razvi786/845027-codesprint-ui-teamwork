@@ -220,6 +220,10 @@ function next(ele){
   ele.nextElementSibling.focus();
 }
 
+function last(ele){
+  document.getElementById("email").focus();
+}
+
 function validate_number(element) {
   element.addEventListener("keydown", function (evt) {
     ascii = evt.which ? evt.which : evt.keyCode

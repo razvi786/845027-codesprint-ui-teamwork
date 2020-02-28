@@ -84,7 +84,7 @@
 
           <div class="row">
 
-            <fieldset class="mx-2 my-2 w-100 border border-rounded">
+            <fieldset class="mx-2 my-2 w-100 border">
               <legend>Shipping Address</legend>
 
               <div class="row py-2">
@@ -131,20 +131,22 @@
 
           <div class="row py-2">
             <div class="col-sm-2"><label for="">Phone Number</label></div>
-            <div class="col-1"><input type="text" size="3" value="+91" disabled></div>
 
-            <div class="col input-group">
-              <input class="input-group-append" type="number" min="1" max="9"
+            <div class="col form-group">
+              <div class="input-group-prepend">
+                <input class="" type="text" size="1" value="+91" disabled>
+              <input class="form-control" type="text" min="1" max="9"
                 onkeypress="validate_number(this);next(this)" id="p1">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p2">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p3">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p4">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p5">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p6">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p7">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p8">
-              <input class="input-group-append" type="number" min="0" max="9" onkeypress="next(this)" id="p9">
-              <input class="input-group-append" type="number" min="0" max="9" id="p10">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p2">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p3">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p4">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p5">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p6">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p7">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p8">
+              <input class="form-control" type="text" min="0" max="9" onkeypress="next(this)" id="p9">
+              <input class="form-control" type="text" min="0" max="9" id="p10" onkeypress="last(this)">
+            </div>
             </div>
 
           </div>
